@@ -1,4 +1,3 @@
-
 const frenchTranslations = [
   { draw: 'dessiner' },
   { point: 'point' },
@@ -12,7 +11,8 @@ const frenchTranslations = [
   { push: 'empiler' },
   { pop: 'dépiler' },
   { stroke: 'contour' },
-  { strokeWeight: 'poidsContour' },
+  { noStroke: 'pasDeContour' },
+  { strokeWeight: 'epaisseurContour' },
   { fill: 'remplir' },
   { noFill: 'nePasRemplir' },
   { background: 'arrièrePlan' },

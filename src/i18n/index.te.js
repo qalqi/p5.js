@@ -1,23 +1,31 @@
-
 const teluguTranslations = [
-  { point: 'బిందు' },
+  { draw: 'చిత్రీకరించు' },
+  { point: 'బిందువు' },
   { line: 'రేఖ' },
   { curve: 'వక్రరేఖ' },
   { circle: 'వృత్తం' },
-  { ellipse: 'అసమవృత్తం' },
-  { rect: 'చదరపు' },
-  { rectMode: 'చదరపుముఖం' },
-  { text: 'వచనం' },
-  { push: 'త్రోయు' },
-  { pop: 'లాగు' },
-  { stroke: 'ప్రహరణ' },
-  { strokeWeight: 'ప్రహరణవజన' },
-  { fill: 'భరించండి' },
-  { noFill: 'భరించకుండా' },
+  { ellipse: 'దీర్ఘవృత్తం' },
+  { rect: 'దీర్ఘచతురస్రం' },
+  { rectMode: 'దీర్ఘచతురస్ర_రూపం' },
+  { text: 'పాఠం' },
+  { push: 'నెట్టు' },
+  { pop: 'తీసివేయి' },
+  { stroke: 'రేఖ_రంగు' },
+  { noStroke: 'రేఖ_లేకుండా' },
+  { strokeWeight: 'రేఖ_మందం' },
+  { fill: 'నింపు' },
+  { noFill: 'నింపకుండా' },
   { background: 'నేపథ్యం' },
-  { clear: 'స్పష్టమo' }
+  { clear: 'శుభ్రపరచు' },
+  { translate: 'స్థానాంతరం' },
+  { rotate: 'తిప్పు' },
+  { scale: 'కొలత' },
+  { shearX: 'వాల్చుX' },
+  { shearY: 'వాల్చుY' },
+  { textSize: 'పాఠం_పరిమాణం' },
+  { textFont: 'పాఠం_ఫాంట్' },
+  { textAlign: 'పాఠం_అమరిక' },
+  { strokeCap: 'రేఖ_కొన' }
 ];
-
-
 
 export default teluguTranslations;
