@@ -1,0 +1,31 @@
+const japaneseTranslations = [
+  { draw: '描画' },
+  { point: '点' },
+  { line: '線' },
+  { curve: '曲線' },
+  { circle: '円' },
+  { ellipse: '楕円' },
+  { rect: '長方形' },
+  { rectMode: '長方形モード' },
+  { text: 'テキスト' },
+  { push: 'プッシュ' },
+  { pop: 'ポップ' },
+  { stroke: '線の色' },
+  { noStroke: '線なし' },
+  { strokeWeight: '線の太さ' },
+  { fill: '塗りつぶし' },
+  { noFill: '塗りつぶしなし' },
+  { background: '背景' },
+  { clear: '消去' },
+  { translate: '移動' },
+  { rotate: '回転' },
+  { scale: '拡大縮小' },
+  { shearX: 'せん断X' },
+  { shearY: 'せん断Y' },
+  { textSize: 'テキストサイズ' },
+  { textFont: 'フォント' },
+  { textAlign: 'テキスト揃え' },
+  { strokeCap: '線の端' }
+];
+
+export default japaneseTranslations;
