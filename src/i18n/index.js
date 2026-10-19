@@ -2,13 +2,15 @@ import russianTranslations from './index.ru';
 import teluguTranslations from './index.te';
 import hindiTranslations from './index.hi';
 import frenchTranslations from './index.fr';
+import japaneseTranslations from './index.ja';
 
 const initializeInternationalization = p5 => {
   [
     ...frenchTranslations,
     ...hindiTranslations,
     ...teluguTranslations,
-    ...russianTranslations
+    ...russianTranslations,
+    ...japaneseTranslations
   ].forEach(translateObj => {
     let [englishMethod, translation] = Object.entries(translateObj).flat();
     p5.prototype[translation] = p5.prototype[englishMethod];
