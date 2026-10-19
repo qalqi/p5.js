@@ -1,72 +1,156 @@
 const frenchTranslations = [
   {
-    "AUDIO": "AUDIO"
+    "draw": "dessiner"
   },
   {
-    "VIDEO": "VIDEO"
+    "setup": "configurer"
   },
   {
-    "abs": "absolu"
+    "print": "imprimer"
   },
   {
-    "accelerationX": "accelerationX"
+    "cursor": "curseur"
   },
   {
-    "accelerationY": "accelerationY"
+    "noCursor": "sansCurseur"
   },
   {
-    "accelerationZ": "accelerationZ"
+    "frameRate": "frequenceImages"
   },
   {
-    "acos": "arccosinus"
+    "getFrameRate": "obtenirFrequenceImages"
   },
   {
-    "alpha": "alpha"
+    "setFrameRate": "definirFrequenceImages"
   },
   {
-    "ambientLight": "lumiereAmbiante"
+    "getTargetFrameRate": "obtenirFrequenceCible"
   },
   {
-    "ambientMaterial": "materiauAmbiant"
+    "displayWidth": "largeurEcran"
   },
   {
-    "angleMode": "modeAngle"
+    "displayHeight": "hauteurEcran"
   },
   {
-    "append": "append"
+    "windowWidth": "largeurFenetre"
   },
   {
-    "applyMatrix": "appliquerMatrice"
+    "windowHeight": "hauteurFenetre"
+  },
+  {
+    "fullscreen": "pleinEcran"
+  },
+  {
+    "pixelDensity": "densitePixels"
+  },
+  {
+    "displayDensity": "densiteAffichage"
+  },
+  {
+    "getURL": "obtenirURL"
+  },
+  {
+    "getURLPath": "obtenirCheminURL"
+  },
+  {
+    "getURLParams": "obtenirParametresURL"
+  },
+  {
+    "createCanvas": "creerCanevas"
+  },
+  {
+    "resizeCanvas": "redimensionnerCanevas"
+  },
+  {
+    "noCanvas": "sansCanevas"
+  },
+  {
+    "createGraphics": "creerGraphique"
+  },
+  {
+    "createFramebuffer": "creerTamponTrame"
+  },
+  {
+    "blendMode": "modeMelange"
+  },
+  {
+    "noLoop": "arreterBoucle"
+  },
+  {
+    "loop": "boucler"
+  },
+  {
+    "isLooping": "estEnBoucle"
+  },
+  {
+    "redraw": "redessiner"
+  },
+  {
+    "push": "empiler"
+  },
+  {
+    "pop": "depiler"
+  },
+  {
+    "pushMatrix": "empilerMatrice"
+  },
+  {
+    "popMatrix": "depilerMatrice"
+  },
+  {
+    "pushStyle": "empilerStyle"
+  },
+  {
+    "popStyle": "depilerStyle"
   },
   {
     "arc": "arc"
   },
   {
-    "arrayCopy": "arrayCopy"
+    "ellipse": "ellipse"
   },
   {
-    "asin": "arcsinus"
+    "circle": "cercle"
   },
   {
-    "atan": "arctangente"
+    "line": "ligne"
   },
   {
-    "atan2": "arctangente2"
+    "point": "point"
   },
   {
-    "background": "arrierePlan"
+    "quad": "quadrilatere"
   },
   {
-    "beginClip": "commencerDecoupage"
+    "rect": "rectangle"
   },
   {
-    "beginContour": "commencerContour"
+    "square": "carre"
   },
   {
-    "beginGeometry": "commencerGeometrie"
+    "triangle": "triangle"
   },
   {
-    "beginShape": "commencerForme"
+    "ellipseMode": "modeEllipse"
+  },
+  {
+    "noSmooth": "sansLissage"
+  },
+  {
+    "rectMode": "modeRectangle"
+  },
+  {
+    "smooth": "lisser"
+  },
+  {
+    "strokeCap": "terminaisonContour"
+  },
+  {
+    "strokeJoin": "jonctionContour"
+  },
+  {
+    "strokeWeight": "epaisseurContour"
   },
   {
     "bezier": "bezier"
@@ -81,169 +165,13 @@ const frenchTranslations = [
     "bezierTangent": "tangenteBezier"
   },
   {
-    "bezierVertex": "sommetBezier"
-  },
-  {
-    "blend": "melanger"
-  },
-  {
-    "blendMode": "modeMelange"
-  },
-  {
-    "blue": "bleu"
-  },
-  {
-    "boolean": "boolean"
-  },
-  {
-    "box": "boite"
-  },
-  {
-    "brightness": "luminosite"
-  },
-  {
-    "buildGeometry": "construireGeometrie"
-  },
-  {
-    "byte": "byte"
-  },
-  {
-    "callRegisteredHooksFor": "callRegisteredHooksFor"
-  },
-  {
-    "camera": "camera"
-  },
-  {
-    "ceil": "plafond"
-  },
-  {
-    "char": "char"
-  },
-  {
-    "circle": "cercle"
-  },
-  {
-    "clear": "effacer"
-  },
-  {
-    "clearStorage": "effacerStockage"
-  },
-  {
-    "clip": "decouper"
-  },
-  {
-    "color": "couleur"
-  },
-  {
-    "colorMode": "modeCouleur"
-  },
-  {
-    "concat": "concat"
-  },
-  {
-    "cone": "cone"
-  },
-  {
-    "constrain": "restreindre"
-  },
-  {
-    "copy": "copier"
-  },
-  {
-    "cos": "cosinus"
-  },
-  {
-    "createA": "createA"
-  },
-  {
-    "createAudio": "createAudio"
-  },
-  {
-    "createButton": "createButton"
-  },
-  {
-    "createCamera": "creerCamera"
-  },
-  {
-    "createCanvas": "creerCanevas"
-  },
-  {
-    "createCapture": "createCapture"
-  },
-  {
-    "createCheckbox": "createCheckbox"
-  },
-  {
-    "createColorPicker": "createColorPicker"
-  },
-  {
-    "createDiv": "createDiv"
-  },
-  {
-    "createElement": "createElement"
-  },
-  {
-    "createFileInput": "createFileInput"
-  },
-  {
-    "createFilterShader": "creerOmbreurFiltre"
-  },
-  {
-    "createFramebuffer": "creerTamponTrame"
-  },
-  {
-    "createGraphics": "creerGraphique"
-  },
-  {
-    "createImage": "creerImage"
-  },
-  {
-    "createImg": "createImg"
-  },
-  {
-    "createInput": "createInput"
-  },
-  {
-    "createNumberDict": "creerDicoNombre"
-  },
-  {
-    "createP": "createP"
-  },
-  {
-    "createRadio": "createRadio"
-  },
-  {
-    "createSelect": "createSelect"
-  },
-  {
-    "createShader": "creerOmbreur"
-  },
-  {
-    "createSlider": "createSlider"
-  },
-  {
-    "createSpan": "createSpan"
-  },
-  {
-    "createStringDict": "creerDicoChaine"
-  },
-  {
-    "createVector": "creerVecteur"
-  },
-  {
-    "createVideo": "createVideo"
-  },
-  {
-    "createWriter": "creerEcripteur"
-  },
-  {
-    "cursor": "curseur"
-  },
-  {
     "curve": "courbe"
   },
   {
     "curveDetail": "detailCourbe"
+  },
+  {
+    "curveTightness": "tensionCourbe"
   },
   {
     "curvePoint": "pointCourbe"
@@ -252,508 +180,37 @@ const frenchTranslations = [
     "curveTangent": "tangenteCourbe"
   },
   {
-    "curveTightness": "tensionCourbe"
+    "beginContour": "commencerContour"
+  },
+  {
+    "beginShape": "commencerForme"
+  },
+  {
+    "bezierVertex": "sommetBezier"
   },
   {
     "curveVertex": "sommetCourbe"
   },
   {
-    "cylinder": "cylindre"
-  },
-  {
-    "day": "day"
-  },
-  {
-    "debugMode": "modeDebogage"
-  },
-  {
-    "degrees": "degres"
-  },
-  {
-    "deltaTime": "deltaTime"
-  },
-  {
-    "describe": "describe"
-  },
-  {
-    "describeElement": "describeElement"
-  },
-  {
-    "deviceOrientation": "deviceOrientation"
-  },
-  {
-    "directionalLight": "lumiereDirectionnelle"
-  },
-  {
-    "displayDensity": "densiteAffichage"
-  },
-  {
-    "displayHeight": "hauteurEcran"
-  },
-  {
-    "displayWidth": "largeurEcran"
-  },
-  {
-    "dist": "distance"
-  },
-  {
-    "downloadFile": "telechargerFichier"
-  },
-  {
-    "ellipse": "ellipse"
-  },
-  {
-    "ellipseMode": "modeEllipse"
-  },
-  {
-    "ellipsoid": "ellipsoide"
-  },
-  {
-    "emissiveMaterial": "materiauEmissif"
-  },
-  {
-    "encodeAndDownloadGif": "encodeAndDownloadGif"
-  },
-  {
-    "endClip": "finirDecoupage"
-  },
-  {
     "endContour": "finirContour"
-  },
-  {
-    "endGeometry": "finirGeometrie"
   },
   {
     "endShape": "finirForme"
   },
   {
-    "erase": "effacerZone"
+    "quadraticVertex": "sommetQuadratique"
   },
   {
-    "exitPointerLock": "exitPointerLock"
-  },
-  {
-    "exp": "exponentielle"
-  },
-  {
-    "fill": "remplir"
-  },
-  {
-    "filter": "filtrer"
-  },
-  {
-    "float": "float"
-  },
-  {
-    "floor": "plancher"
-  },
-  {
-    "focused": "focused"
-  },
-  {
-    "fract": "fraction"
-  },
-  {
-    "frameCount": "frameCount"
-  },
-  {
-    "frameRate": "frequenceImages"
-  },
-  {
-    "freeGeometry": "libererGeometrie"
-  },
-  {
-    "frustum": "troncPyramide"
-  },
-  {
-    "fullscreen": "pleinEcran"
-  },
-  {
-    "get": "obtenirPixel"
-  },
-  {
-    "getAudioContext": "getAudioContext"
-  },
-  {
-    "getFrameRate": "obtenirFrequenceImages"
-  },
-  {
-    "getItem": "obtenirElement"
-  },
-  {
-    "getTargetFrameRate": "obtenirFrequenceCible"
-  },
-  {
-    "getURL": "obtenirURL"
-  },
-  {
-    "getURLParams": "obtenirParametresURL"
-  },
-  {
-    "getURLPath": "obtenirCheminURL"
-  },
-  {
-    "green": "vert"
-  },
-  {
-    "gridOutput": "gridOutput"
-  },
-  {
-    "height": "height"
-  },
-  {
-    "hex": "hex"
-  },
-  {
-    "hour": "hour"
-  },
-  {
-    "httpDo": "httpExecuter"
-  },
-  {
-    "httpGet": "httpObtenir"
-  },
-  {
-    "httpPost": "httpEnvoyer"
-  },
-  {
-    "hue": "teinte"
-  },
-  {
-    "image": "image"
-  },
-  {
-    "imageLight": "imageLight"
-  },
-  {
-    "imageMode": "modeImage"
-  },
-  {
-    "int": "int"
-  },
-  {
-    "isKeyPressed": "isKeyPressed"
-  },
-  {
-    "isLooping": "estEnBoucle"
-  },
-  {
-    "join": "join"
-  },
-  {
-    "key": "key"
-  },
-  {
-    "keyCode": "keyCode"
-  },
-  {
-    "keyIsDown": "keyIsDown"
-  },
-  {
-    "keyIsPressed": "keyIsPressed"
-  },
-  {
-    "lerp": "interpolation"
-  },
-  {
-    "lerpColor": "interpCouleur"
-  },
-  {
-    "lightFalloff": "attenuationLumiere"
-  },
-  {
-    "lightness": "clarte"
-  },
-  {
-    "lights": "lumieres"
-  },
-  {
-    "line": "ligne"
-  },
-  {
-    "loadBytes": "chargerOctets"
-  },
-  {
-    "loadFont": "chargerPolice"
-  },
-  {
-    "loadImage": "chargerImage"
-  },
-  {
-    "loadJSON": "chargerJSON"
-  },
-  {
-    "loadModel": "chargerModele"
-  },
-  {
-    "loadPixels": "chargerPixels"
-  },
-  {
-    "loadShader": "chargerOmbreur"
-  },
-  {
-    "loadStrings": "chargerLignes"
-  },
-  {
-    "loadTable": "chargerTableau"
-  },
-  {
-    "loadXML": "chargerXML"
-  },
-  {
-    "log": "logarithme"
-  },
-  {
-    "loop": "boucler"
-  },
-  {
-    "mag": "magnitude"
-  },
-  {
-    "map": "cartographier"
-  },
-  {
-    "match": "match"
-  },
-  {
-    "matchAll": "matchAll"
-  },
-  {
-    "max": "maximum"
-  },
-  {
-    "millis": "millis"
-  },
-  {
-    "min": "minimum"
-  },
-  {
-    "minute": "minute"
-  },
-  {
-    "model": "modele"
-  },
-  {
-    "month": "month"
-  },
-  {
-    "mouseButton": "mouseButton"
-  },
-  {
-    "mouseIsPressed": "mouseIsPressed"
-  },
-  {
-    "mouseX": "mouseX"
-  },
-  {
-    "mouseY": "mouseY"
-  },
-  {
-    "movedX": "movedX"
-  },
-  {
-    "movedY": "movedY"
-  },
-  {
-    "nf": "nf"
-  },
-  {
-    "nfc": "nfc"
-  },
-  {
-    "nfp": "nfp"
-  },
-  {
-    "nfs": "nfs"
-  },
-  {
-    "noCanvas": "sansCanevas"
-  },
-  {
-    "noCursor": "sansCurseur"
-  },
-  {
-    "noDebugMode": "sansModeDebogage"
-  },
-  {
-    "noErase": "nePasEffacer"
-  },
-  {
-    "noFill": "nePasRemplir"
-  },
-  {
-    "noLights": "sansLumieres"
-  },
-  {
-    "noLoop": "arrêtexBoucle"
-  },
-  {
-    "noSmooth": "sansLissage"
-  },
-  {
-    "noStroke": "pasDeContour"
-  },
-  {
-    "noTint": "sansTeinte"
-  },
-  {
-    "noise": "bruit"
-  },
-  {
-    "noiseDetail": "detailBruit"
-  },
-  {
-    "noiseSeed": "graineBruit"
-  },
-  {
-    "norm": "normaliser"
+    "vertex": "sommet"
   },
   {
     "normal": "normale"
   },
   {
-    "normalMaterial": "materiauNormal"
-  },
-  {
-    "orbitControl": "controleOrbital"
-  },
-  {
-    "ortho": "orthogonale"
-  },
-  {
-    "pAccelerationX": "pAccelerationX"
-  },
-  {
-    "pAccelerationY": "pAccelerationY"
-  },
-  {
-    "pAccelerationZ": "pAccelerationZ"
-  },
-  {
-    "pRotateDirectionX": "pRotateDirectionX"
-  },
-  {
-    "pRotateDirectionY": "pRotateDirectionY"
-  },
-  {
-    "pRotateDirectionZ": "pRotateDirectionZ"
-  },
-  {
-    "pRotationX": "pRotationX"
-  },
-  {
-    "pRotationY": "pRotationY"
-  },
-  {
-    "pRotationZ": "pRotationZ"
-  },
-  {
-    "perspective": "perspective"
-  },
-  {
-    "pixelDensity": "densitePixels"
-  },
-  {
-    "pixels": "pixels"
-  },
-  {
-    "plane": "plan"
-  },
-  {
-    "pmouseX": "pmouseX"
-  },
-  {
-    "pmouseY": "pmouseY"
-  },
-  {
-    "point": "point"
-  },
-  {
-    "pointLight": "lumierePonctuelle"
-  },
-  {
-    "pop": "depiler"
-  },
-  {
-    "popMatrix": "popMatrix"
-  },
-  {
-    "popStyle": "popStyle"
-  },
-  {
-    "pow": "puissance"
-  },
-  {
-    "print": "imprimer"
-  },
-  {
-    "push": "empiler"
-  },
-  {
-    "pushMatrix": "pushMatrix"
-  },
-  {
-    "pushStyle": "pushStyle"
-  },
-  {
-    "pwinMouseX": "pwinMouseX"
-  },
-  {
-    "pwinMouseY": "pwinMouseY"
-  },
-  {
-    "quad": "quadrilatere"
-  },
-  {
-    "quadraticVertex": "sommetQuadratique"
-  },
-  {
-    "radians": "radians"
-  },
-  {
-    "random": "aleatoire"
-  },
-  {
-    "randomGaussian": "aleatoireGaussienne"
-  },
-  {
-    "randomSeed": "graineAleatoire"
-  },
-  {
-    "rect": "rectangle"
-  },
-  {
-    "rectMode": "modeRectangle"
-  },
-  {
-    "red": "rouge"
-  },
-  {
-    "redraw": "redessiner"
-  },
-  {
-    "registerPromisePreload": "registerPromisePreload"
-  },
-  {
-    "removeElements": "removeElements"
-  },
-  {
-    "removeItem": "supprimerElement"
-  },
-  {
-    "requestPointerLock": "requestPointerLock"
+    "applyMatrix": "appliquerMatrice"
   },
   {
     "resetMatrix": "reinitialiserMatrice"
-  },
-  {
-    "resetShader": "reinitialiserOmbreur"
-  },
-  {
-    "resizeCanvas": "redimensionnerCanevas"
-  },
-  {
-    "reverse": "reverse"
   },
   {
     "rotate": "tourner"
@@ -768,79 +225,7 @@ const frenchTranslations = [
     "rotateZ": "tournerZ"
   },
   {
-    "rotationX": "rotationX"
-  },
-  {
-    "rotationY": "rotationY"
-  },
-  {
-    "rotationZ": "rotationZ"
-  },
-  {
-    "round": "arrondir"
-  },
-  {
-    "saturation": "saturation"
-  },
-  {
-    "save": "sauvegarder"
-  },
-  {
-    "saveCanvas": "sauvegarderCanevas"
-  },
-  {
-    "saveFrames": "saveFrames"
-  },
-  {
-    "saveGif": "sauvegarderGif"
-  },
-  {
-    "saveJSON": "sauvegarderJSON"
-  },
-  {
-    "saveJSONArray": "sauvegarderTableauJSON"
-  },
-  {
-    "saveJSONObject": "sauvegarderObjetJSON"
-  },
-  {
-    "saveStrings": "sauvegarderLignes"
-  },
-  {
-    "saveTable": "sauvegarderTableau"
-  },
-  {
     "scale": "echelle"
-  },
-  {
-    "second": "second"
-  },
-  {
-    "select": "select"
-  },
-  {
-    "selectAll": "selectAll"
-  },
-  {
-    "set": "definirPixel"
-  },
-  {
-    "setAttributes": "definirAttributs"
-  },
-  {
-    "setCamera": "definirCamera"
-  },
-  {
-    "setFrameRate": "definirFrequenceImages"
-  },
-  {
-    "setMoveThreshold": "setMoveThreshold"
-  },
-  {
-    "setShakeThreshold": "setShakeThreshold"
-  },
-  {
-    "shader": "ombreur"
   },
   {
     "shearX": "cisaillementX"
@@ -849,97 +234,79 @@ const frenchTranslations = [
     "shearY": "cisaillementY"
   },
   {
-    "shininess": "brillance"
+    "translate": "deplacer"
   },
   {
-    "shorten": "shorten"
+    "alpha": "alpha"
   },
   {
-    "shuffle": "shuffle"
+    "blue": "bleu"
   },
   {
-    "sin": "sinus"
+    "brightness": "luminosite"
   },
   {
-    "smooth": "lisser"
+    "color": "couleur"
   },
   {
-    "sort": "sort"
+    "green": "vert"
   },
   {
-    "specularColor": "couleurSpeculaire"
+    "hue": "teinte"
   },
   {
-    "specularMaterial": "materiauSpeculaire"
+    "lerpColor": "interpCouleur"
   },
   {
-    "sphere": "sphere"
+    "lightness": "clarte"
   },
   {
-    "splice": "splice"
+    "red": "rouge"
   },
   {
-    "split": "split"
+    "saturation": "saturation"
   },
   {
-    "splitTokens": "splitTokens"
+    "beginClip": "commencerDecoupage"
   },
   {
-    "spotLight": "projecteurLumiere"
+    "endClip": "finirDecoupage"
   },
   {
-    "sq": "carreNombre"
+    "clip": "decouper"
   },
   {
-    "sqrt": "racineCarree"
+    "background": "arrierePlan"
   },
   {
-    "square": "carre"
+    "clear": "effacer"
   },
   {
-    "storeItem": "stockerElement"
+    "colorMode": "modeCouleur"
   },
   {
-    "str": "str"
+    "fill": "remplir"
+  },
+  {
+    "noFill": "nePasRemplir"
+  },
+  {
+    "noStroke": "pasDeContour"
   },
   {
     "stroke": "contour"
   },
   {
-    "strokeCap": "terminaisonContour"
+    "erase": "effacerZone"
   },
   {
-    "strokeJoin": "jonctionContour"
-  },
-  {
-    "strokeWeight": "epaisseurContour"
-  },
-  {
-    "subset": "subset"
-  },
-  {
-    "tan": "tangente"
-  },
-  {
-    "text": "texte"
+    "noErase": "nePasEffacer"
   },
   {
     "textAlign": "alignementTexte"
   },
   {
-    "textAscent": "ascendantTexte"
-  },
-  {
-    "textDescent": "descendantTexte"
-  },
-  {
-    "textFont": "policeTexte"
-  },
-  {
     "textLeading": "interligneTexte"
-  },
-  {
-    "textOutput": "textOutput"
   },
   {
     "textSize": "tailleTexte"
@@ -951,7 +318,352 @@ const frenchTranslations = [
     "textWidth": "largeurTexte"
   },
   {
+    "textAscent": "ascendantTexte"
+  },
+  {
+    "textDescent": "descendantTexte"
+  },
+  {
     "textWrap": "retourLigneTexte"
+  },
+  {
+    "loadFont": "chargerPolice"
+  },
+  {
+    "text": "texte"
+  },
+  {
+    "textFont": "policeTexte"
+  },
+  {
+    "createImage": "creerImage"
+  },
+  {
+    "saveCanvas": "sauvegarderCanevas"
+  },
+  {
+    "saveGif": "sauvegarderGif"
+  },
+  {
+    "loadImage": "chargerImage"
+  },
+  {
+    "image": "image"
+  },
+  {
+    "tint": "teinter"
+  },
+  {
+    "noTint": "sansTeinte"
+  },
+  {
+    "imageMode": "modeImage"
+  },
+  {
+    "blend": "melanger"
+  },
+  {
+    "copy": "copier"
+  },
+  {
+    "filter": "filtrer"
+  },
+  {
+    "get": "obtenirPixel"
+  },
+  {
+    "loadPixels": "chargerPixels"
+  },
+  {
+    "set": "definirPixel"
+  },
+  {
+    "updatePixels": "mettreAJourPixels"
+  },
+  {
+    "loadJSON": "chargerJSON"
+  },
+  {
+    "loadStrings": "chargerLignes"
+  },
+  {
+    "loadTable": "chargerTableau"
+  },
+  {
+    "loadXML": "chargerXML"
+  },
+  {
+    "loadBytes": "chargerOctets"
+  },
+  {
+    "httpGet": "httpObtenir"
+  },
+  {
+    "httpPost": "httpEnvoyer"
+  },
+  {
+    "httpDo": "httpExecuter"
+  },
+  {
+    "createWriter": "creerEcripteur"
+  },
+  {
+    "save": "sauvegarder"
+  },
+  {
+    "saveJSON": "sauvegarderJSON"
+  },
+  {
+    "saveJSONObject": "sauvegarderObjetJSON"
+  },
+  {
+    "saveJSONArray": "sauvegarderTableauJSON"
+  },
+  {
+    "saveStrings": "sauvegarderLignes"
+  },
+  {
+    "saveTable": "sauvegarderTableau"
+  },
+  {
+    "writeFile": "ecrireFichier"
+  },
+  {
+    "downloadFile": "telechargerFichier"
+  },
+  {
+    "storeItem": "stockerElement"
+  },
+  {
+    "getItem": "obtenirElement"
+  },
+  {
+    "clearStorage": "effacerStockage"
+  },
+  {
+    "removeItem": "supprimerElement"
+  },
+  {
+    "createStringDict": "creerDicoChaine"
+  },
+  {
+    "createNumberDict": "creerDicoNombre"
+  },
+  {
+    "abs": "absolu"
+  },
+  {
+    "ceil": "plafond"
+  },
+  {
+    "constrain": "restreindre"
+  },
+  {
+    "dist": "distance"
+  },
+  {
+    "exp": "exponentielle"
+  },
+  {
+    "floor": "plancher"
+  },
+  {
+    "lerp": "interpolation"
+  },
+  {
+    "log": "logarithme"
+  },
+  {
+    "mag": "magnitude"
+  },
+  {
+    "map": "cartographier"
+  },
+  {
+    "max": "maximum"
+  },
+  {
+    "min": "minimum"
+  },
+  {
+    "norm": "normaliser"
+  },
+  {
+    "pow": "puissance"
+  },
+  {
+    "round": "arrondir"
+  },
+  {
+    "sq": "carreNombre"
+  },
+  {
+    "sqrt": "racineCarree"
+  },
+  {
+    "fract": "fraction"
+  },
+  {
+    "createVector": "creerVecteur"
+  },
+  {
+    "noise": "bruit"
+  },
+  {
+    "noiseDetail": "detailBruit"
+  },
+  {
+    "noiseSeed": "graineBruit"
+  },
+  {
+    "randomSeed": "graineAleatoire"
+  },
+  {
+    "random": "aleatoire"
+  },
+  {
+    "randomGaussian": "aleatoireGaussienne"
+  },
+  {
+    "acos": "arccosinus"
+  },
+  {
+    "asin": "arcsinus"
+  },
+  {
+    "atan": "arctangente"
+  },
+  {
+    "atan2": "arctangente2"
+  },
+  {
+    "cos": "cosinus"
+  },
+  {
+    "sin": "sinus"
+  },
+  {
+    "tan": "tangente"
+  },
+  {
+    "degrees": "degres"
+  },
+  {
+    "radians": "radians"
+  },
+  {
+    "angleMode": "modeAngle"
+  },
+  {
+    "camera": "camera"
+  },
+  {
+    "perspective": "perspective"
+  },
+  {
+    "ortho": "orthogonale"
+  },
+  {
+    "frustum": "troncPyramide"
+  },
+  {
+    "createCamera": "creerCamera"
+  },
+  {
+    "setCamera": "definirCamera"
+  },
+  {
+    "setAttributes": "definirAttributs"
+  },
+  {
+    "webglVersion": "versionWebgl"
+  },
+  {
+    "beginGeometry": "commencerGeometrie"
+  },
+  {
+    "endGeometry": "finirGeometrie"
+  },
+  {
+    "buildGeometry": "construireGeometrie"
+  },
+  {
+    "freeGeometry": "libererGeometrie"
+  },
+  {
+    "plane": "plan"
+  },
+  {
+    "box": "boite"
+  },
+  {
+    "sphere": "sphere"
+  },
+  {
+    "cylinder": "cylindre"
+  },
+  {
+    "cone": "cone"
+  },
+  {
+    "ellipsoid": "ellipsoide"
+  },
+  {
+    "torus": "tore"
+  },
+  {
+    "orbitControl": "controleOrbital"
+  },
+  {
+    "debugMode": "modeDebogage"
+  },
+  {
+    "noDebugMode": "sansModeDebogage"
+  },
+  {
+    "ambientLight": "lumiereAmbiante"
+  },
+  {
+    "specularColor": "couleurSpeculaire"
+  },
+  {
+    "directionalLight": "lumiereDirectionnelle"
+  },
+  {
+    "pointLight": "lumierePonctuelle"
+  },
+  {
+    "lights": "lumieres"
+  },
+  {
+    "lightFalloff": "attenuationLumiere"
+  },
+  {
+    "spotLight": "projecteurLumiere"
+  },
+  {
+    "noLights": "sansLumieres"
+  },
+  {
+    "loadModel": "chargerModele"
+  },
+  {
+    "model": "modele"
+  },
+  {
+    "loadShader": "chargerOmbreur"
+  },
+  {
+    "createShader": "creerOmbreur"
+  },
+  {
+    "createFilterShader": "creerOmbreurFiltre"
+  },
+  {
+    "shader": "ombreur"
+  },
+  {
+    "resetShader": "reinitialiserOmbreur"
   },
   {
     "texture": "texture"
@@ -963,61 +675,19 @@ const frenchTranslations = [
     "textureWrap": "enveloppementTexture"
   },
   {
-    "tint": "teinter"
+    "normalMaterial": "materiauNormal"
   },
   {
-    "torus": "tore"
+    "ambientMaterial": "materiauAmbiant"
   },
   {
-    "touches": "touches"
+    "emissiveMaterial": "materiauEmissif"
   },
   {
-    "translate": "deplacer"
+    "specularMaterial": "materiauSpeculaire"
   },
   {
-    "triangle": "triangle"
-  },
-  {
-    "trim": "trim"
-  },
-  {
-    "turnAxis": "turnAxis"
-  },
-  {
-    "unchar": "unchar"
-  },
-  {
-    "unhex": "unhex"
-  },
-  {
-    "updatePixels": "mettreAJourPixels"
-  },
-  {
-    "vertex": "sommet"
-  },
-  {
-    "webglVersion": "versionWebgl"
-  },
-  {
-    "width": "width"
-  },
-  {
-    "winMouseX": "winMouseX"
-  },
-  {
-    "winMouseY": "winMouseY"
-  },
-  {
-    "windowHeight": "hauteurFenetre"
-  },
-  {
-    "windowWidth": "largeurFenetre"
-  },
-  {
-    "writeFile": "ecrireFichier"
-  },
-  {
-    "year": "year"
+    "shininess": "brillance"
   }
 ];
 

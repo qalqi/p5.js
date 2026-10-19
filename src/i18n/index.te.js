@@ -1,846 +1,231 @@
 const teluguTranslations = [
   {
-    "AUDIO": "AUDIO"
+    "draw": "చిత్రీకరించు"
   },
   {
-    "VIDEO": "VIDEO"
+    "setup": "సిద్ధంచేయి"
   },
   {
-    "abs": "abs"
+    "print": "ముద్రించు"
   },
   {
-    "accelerationX": "accelerationX"
+    "cursor": "కర్సర్"
   },
   {
-    "accelerationY": "accelerationY"
+    "noCursor": "కర్సర్_లేకుండా"
   },
   {
-    "accelerationZ": "accelerationZ"
+    "frameRate": "ఫ్రేమ్_రేటు"
   },
   {
-    "acos": "acos"
+    "getFrameRate": "ఫ్రేమ్_రేటు_పొందు"
   },
   {
-    "alpha": "alpha"
+    "setFrameRate": "ఫ్రేమ్_రేటు_అమర్చు"
   },
   {
-    "ambientLight": "ambientLight"
+    "getTargetFrameRate": "లక్ష్య_ఫ్రేమ్_రేటు_పొందు"
   },
   {
-    "ambientMaterial": "ambientMaterial"
+    "displayWidth": "ప్రదర్శన_వెడల్పు"
   },
   {
-    "angleMode": "angleMode"
+    "displayHeight": "ప్రదర్శన_ఎత్తు"
   },
   {
-    "append": "append"
+    "windowWidth": "కిటికీ_వెడల్పు"
   },
   {
-    "applyMatrix": "applyMatrix"
+    "windowHeight": "కిటికీ_ఎత్తు"
   },
   {
-    "arc": "arc"
+    "fullscreen": "పూర్తి_తెర"
   },
   {
-    "arrayCopy": "arrayCopy"
+    "pixelDensity": "పిక్సెల్_సాంద్రత"
   },
   {
-    "asin": "asin"
+    "displayDensity": "ప్రదర్శన_సాంద్రత"
   },
   {
-    "atan": "atan"
+    "getURL": "URL_పొందు"
   },
   {
-    "atan2": "atan2"
+    "getURLPath": "URL_త్రోవ_పొందు"
   },
   {
-    "background": "నేపథ్యం"
+    "getURLParams": "URL_పారామితులు_పొందు"
   },
   {
-    "beginClip": "beginClip"
+    "createCanvas": "కాన్వాస్_సృష్టించు"
   },
   {
-    "beginContour": "beginContour"
+    "resizeCanvas": "కాన్వాస్_పరిమాణం_మార్చు"
   },
   {
-    "beginGeometry": "beginGeometry"
+    "noCanvas": "కాన్వాస్_లేకుండా"
   },
   {
-    "beginShape": "beginShape"
+    "createGraphics": "గ్రాఫిక్స్_సృష్టించు"
   },
   {
-    "bezier": "bezier"
+    "createFramebuffer": "ఫ్రేమ్‌బఫర్_సృష్టించు"
   },
   {
-    "bezierDetail": "bezierDetail"
+    "blendMode": "మిశ్రమ_రూపం"
   },
   {
-    "bezierPoint": "bezierPoint"
+    "noLoop": "పునరావృతం_ఆపు"
   },
   {
-    "bezierTangent": "bezierTangent"
+    "loop": "పునరావృతం_చేయి"
   },
   {
-    "bezierVertex": "bezierVertex"
+    "isLooping": "పునరావృతం_అవుతోందా"
   },
   {
-    "blend": "blend"
-  },
-  {
-    "blendMode": "blendMode"
-  },
-  {
-    "blue": "blue"
-  },
-  {
-    "boolean": "boolean"
-  },
-  {
-    "box": "box"
-  },
-  {
-    "brightness": "brightness"
-  },
-  {
-    "buildGeometry": "buildGeometry"
-  },
-  {
-    "byte": "byte"
-  },
-  {
-    "callRegisteredHooksFor": "callRegisteredHooksFor"
-  },
-  {
-    "camera": "camera"
-  },
-  {
-    "ceil": "ceil"
-  },
-  {
-    "char": "char"
-  },
-  {
-    "circle": "వృత్తం"
-  },
-  {
-    "clear": "శుభ్రపరచు"
-  },
-  {
-    "clearStorage": "clearStorage"
-  },
-  {
-    "clip": "clip"
-  },
-  {
-    "color": "color"
-  },
-  {
-    "colorMode": "colorMode"
-  },
-  {
-    "concat": "concat"
-  },
-  {
-    "cone": "cone"
-  },
-  {
-    "constrain": "constrain"
-  },
-  {
-    "copy": "copy"
-  },
-  {
-    "cos": "cos"
-  },
-  {
-    "createA": "createA"
-  },
-  {
-    "createAudio": "createAudio"
-  },
-  {
-    "createButton": "createButton"
-  },
-  {
-    "createCamera": "createCamera"
-  },
-  {
-    "createCanvas": "createCanvas"
-  },
-  {
-    "createCapture": "createCapture"
-  },
-  {
-    "createCheckbox": "createCheckbox"
-  },
-  {
-    "createColorPicker": "createColorPicker"
-  },
-  {
-    "createDiv": "createDiv"
-  },
-  {
-    "createElement": "createElement"
-  },
-  {
-    "createFileInput": "createFileInput"
-  },
-  {
-    "createFilterShader": "createFilterShader"
-  },
-  {
-    "createFramebuffer": "createFramebuffer"
-  },
-  {
-    "createGraphics": "createGraphics"
-  },
-  {
-    "createImage": "createImage"
-  },
-  {
-    "createImg": "createImg"
-  },
-  {
-    "createInput": "createInput"
-  },
-  {
-    "createNumberDict": "createNumberDict"
-  },
-  {
-    "createP": "createP"
-  },
-  {
-    "createRadio": "createRadio"
-  },
-  {
-    "createSelect": "createSelect"
-  },
-  {
-    "createShader": "createShader"
-  },
-  {
-    "createSlider": "createSlider"
-  },
-  {
-    "createSpan": "createSpan"
-  },
-  {
-    "createStringDict": "createStringDict"
-  },
-  {
-    "createVector": "createVector"
-  },
-  {
-    "createVideo": "createVideo"
-  },
-  {
-    "createWriter": "createWriter"
-  },
-  {
-    "cursor": "cursor"
-  },
-  {
-    "curve": "వక్రరేఖ"
-  },
-  {
-    "curveDetail": "curveDetail"
-  },
-  {
-    "curvePoint": "curvePoint"
-  },
-  {
-    "curveTangent": "curveTangent"
-  },
-  {
-    "curveTightness": "curveTightness"
-  },
-  {
-    "curveVertex": "curveVertex"
-  },
-  {
-    "cylinder": "cylinder"
-  },
-  {
-    "day": "day"
-  },
-  {
-    "debugMode": "debugMode"
-  },
-  {
-    "degrees": "degrees"
-  },
-  {
-    "deltaTime": "deltaTime"
-  },
-  {
-    "describe": "describe"
-  },
-  {
-    "describeElement": "describeElement"
-  },
-  {
-    "deviceOrientation": "deviceOrientation"
-  },
-  {
-    "directionalLight": "directionalLight"
-  },
-  {
-    "displayDensity": "displayDensity"
-  },
-  {
-    "displayHeight": "displayHeight"
-  },
-  {
-    "displayWidth": "displayWidth"
-  },
-  {
-    "dist": "dist"
-  },
-  {
-    "downloadFile": "downloadFile"
-  },
-  {
-    "ellipse": "దీర్ఘవృత్తం"
-  },
-  {
-    "ellipseMode": "ellipseMode"
-  },
-  {
-    "ellipsoid": "ellipsoid"
-  },
-  {
-    "emissiveMaterial": "emissiveMaterial"
-  },
-  {
-    "encodeAndDownloadGif": "encodeAndDownloadGif"
-  },
-  {
-    "endClip": "endClip"
-  },
-  {
-    "endContour": "endContour"
-  },
-  {
-    "endGeometry": "endGeometry"
-  },
-  {
-    "endShape": "endShape"
-  },
-  {
-    "erase": "erase"
-  },
-  {
-    "exitPointerLock": "exitPointerLock"
-  },
-  {
-    "exp": "exp"
-  },
-  {
-    "fill": "నింపు"
-  },
-  {
-    "filter": "filter"
-  },
-  {
-    "float": "float"
-  },
-  {
-    "floor": "floor"
-  },
-  {
-    "focused": "focused"
-  },
-  {
-    "fract": "fract"
-  },
-  {
-    "frameCount": "frameCount"
-  },
-  {
-    "frameRate": "frameRate"
-  },
-  {
-    "freeGeometry": "freeGeometry"
-  },
-  {
-    "frustum": "frustum"
-  },
-  {
-    "fullscreen": "fullscreen"
-  },
-  {
-    "get": "get"
-  },
-  {
-    "getAudioContext": "getAudioContext"
-  },
-  {
-    "getFrameRate": "getFrameRate"
-  },
-  {
-    "getItem": "getItem"
-  },
-  {
-    "getTargetFrameRate": "getTargetFrameRate"
-  },
-  {
-    "getURL": "getURL"
-  },
-  {
-    "getURLParams": "getURLParams"
-  },
-  {
-    "getURLPath": "getURLPath"
-  },
-  {
-    "green": "green"
-  },
-  {
-    "gridOutput": "gridOutput"
-  },
-  {
-    "height": "height"
-  },
-  {
-    "hex": "hex"
-  },
-  {
-    "hour": "hour"
-  },
-  {
-    "httpDo": "httpDo"
-  },
-  {
-    "httpGet": "httpGet"
-  },
-  {
-    "httpPost": "httpPost"
-  },
-  {
-    "hue": "hue"
-  },
-  {
-    "image": "image"
-  },
-  {
-    "imageLight": "imageLight"
-  },
-  {
-    "imageMode": "imageMode"
-  },
-  {
-    "int": "int"
-  },
-  {
-    "isKeyPressed": "isKeyPressed"
-  },
-  {
-    "isLooping": "isLooping"
-  },
-  {
-    "join": "join"
-  },
-  {
-    "key": "key"
-  },
-  {
-    "keyCode": "keyCode"
-  },
-  {
-    "keyIsDown": "keyIsDown"
-  },
-  {
-    "keyIsPressed": "keyIsPressed"
-  },
-  {
-    "lerp": "lerp"
-  },
-  {
-    "lerpColor": "lerpColor"
-  },
-  {
-    "lightFalloff": "lightFalloff"
-  },
-  {
-    "lightness": "lightness"
-  },
-  {
-    "lights": "lights"
-  },
-  {
-    "line": "రేఖ"
-  },
-  {
-    "loadBytes": "loadBytes"
-  },
-  {
-    "loadFont": "loadFont"
-  },
-  {
-    "loadImage": "loadImage"
-  },
-  {
-    "loadJSON": "loadJSON"
-  },
-  {
-    "loadModel": "loadModel"
-  },
-  {
-    "loadPixels": "loadPixels"
-  },
-  {
-    "loadShader": "loadShader"
-  },
-  {
-    "loadStrings": "loadStrings"
-  },
-  {
-    "loadTable": "loadTable"
-  },
-  {
-    "loadXML": "loadXML"
-  },
-  {
-    "log": "log"
-  },
-  {
-    "loop": "loop"
-  },
-  {
-    "mag": "mag"
-  },
-  {
-    "map": "map"
-  },
-  {
-    "match": "match"
-  },
-  {
-    "matchAll": "matchAll"
-  },
-  {
-    "max": "max"
-  },
-  {
-    "millis": "millis"
-  },
-  {
-    "min": "min"
-  },
-  {
-    "minute": "minute"
-  },
-  {
-    "model": "model"
-  },
-  {
-    "month": "month"
-  },
-  {
-    "mouseButton": "mouseButton"
-  },
-  {
-    "mouseIsPressed": "mouseIsPressed"
-  },
-  {
-    "mouseX": "mouseX"
-  },
-  {
-    "mouseY": "mouseY"
-  },
-  {
-    "movedX": "movedX"
-  },
-  {
-    "movedY": "movedY"
-  },
-  {
-    "nf": "nf"
-  },
-  {
-    "nfc": "nfc"
-  },
-  {
-    "nfp": "nfp"
-  },
-  {
-    "nfs": "nfs"
-  },
-  {
-    "noCanvas": "noCanvas"
-  },
-  {
-    "noCursor": "noCursor"
-  },
-  {
-    "noDebugMode": "noDebugMode"
-  },
-  {
-    "noErase": "noErase"
-  },
-  {
-    "noFill": "నింపకుండా"
-  },
-  {
-    "noLights": "noLights"
-  },
-  {
-    "noLoop": "noLoop"
-  },
-  {
-    "noSmooth": "noSmooth"
-  },
-  {
-    "noStroke": "రేఖ_లేకుండా"
-  },
-  {
-    "noTint": "noTint"
-  },
-  {
-    "noise": "noise"
-  },
-  {
-    "noiseDetail": "noiseDetail"
-  },
-  {
-    "noiseSeed": "noiseSeed"
-  },
-  {
-    "norm": "norm"
-  },
-  {
-    "normal": "normal"
-  },
-  {
-    "normalMaterial": "normalMaterial"
-  },
-  {
-    "orbitControl": "orbitControl"
-  },
-  {
-    "ortho": "ortho"
-  },
-  {
-    "pAccelerationX": "pAccelerationX"
-  },
-  {
-    "pAccelerationY": "pAccelerationY"
-  },
-  {
-    "pAccelerationZ": "pAccelerationZ"
-  },
-  {
-    "pRotateDirectionX": "pRotateDirectionX"
-  },
-  {
-    "pRotateDirectionY": "pRotateDirectionY"
-  },
-  {
-    "pRotateDirectionZ": "pRotateDirectionZ"
-  },
-  {
-    "pRotationX": "pRotationX"
-  },
-  {
-    "pRotationY": "pRotationY"
-  },
-  {
-    "pRotationZ": "pRotationZ"
-  },
-  {
-    "perspective": "perspective"
-  },
-  {
-    "pixelDensity": "pixelDensity"
-  },
-  {
-    "pixels": "pixels"
-  },
-  {
-    "plane": "plane"
-  },
-  {
-    "pmouseX": "pmouseX"
-  },
-  {
-    "pmouseY": "pmouseY"
-  },
-  {
-    "point": "బిందువు"
-  },
-  {
-    "pointLight": "pointLight"
-  },
-  {
-    "pop": "తీసివేయి"
-  },
-  {
-    "popMatrix": "popMatrix"
-  },
-  {
-    "popStyle": "popStyle"
-  },
-  {
-    "pow": "pow"
-  },
-  {
-    "print": "print"
+    "redraw": "మళ్ళీ_చిత్రీకరించు"
   },
   {
     "push": "నెట్టు"
   },
   {
-    "pushMatrix": "pushMatrix"
+    "pop": "తీసివేయి"
   },
   {
-    "pushStyle": "pushStyle"
+    "pushMatrix": "మాత్రికను_నెట్టు"
   },
   {
-    "pwinMouseX": "pwinMouseX"
+    "popMatrix": "మాత్రికను_తీసివేయి"
   },
   {
-    "pwinMouseY": "pwinMouseY"
+    "pushStyle": "శైలిని_నెట్టు"
   },
   {
-    "quad": "quad"
+    "popStyle": "శైలిని_తీసివేయి"
   },
   {
-    "quadraticVertex": "quadraticVertex"
+    "arc": "చాపం"
   },
   {
-    "radians": "radians"
+    "ellipse": "దీర్ఘవృత్తం"
   },
   {
-    "random": "random"
+    "circle": "వృత్తం"
   },
   {
-    "randomGaussian": "randomGaussian"
+    "line": "రేఖ"
   },
   {
-    "randomSeed": "randomSeed"
+    "point": "బిందువు"
+  },
+  {
+    "quad": "చతుర్భుజం"
   },
   {
     "rect": "దీర్ఘచతురస్రం"
   },
   {
+    "square": "చతురస్రం"
+  },
+  {
+    "triangle": "త్రిభుజం"
+  },
+  {
+    "ellipseMode": "దీర్ఘవృత్త_రూపం"
+  },
+  {
+    "noSmooth": "నునుపు_లేకుండా"
+  },
+  {
     "rectMode": "దీర్ఘచతురస్ర_రూపం"
   },
   {
-    "red": "red"
+    "smooth": "నునుపు"
   },
   {
-    "redraw": "redraw"
+    "strokeCap": "రేఖ_కొన"
   },
   {
-    "registerPromisePreload": "registerPromisePreload"
+    "strokeJoin": "రేఖ_కూడలి"
   },
   {
-    "removeElements": "removeElements"
+    "strokeWeight": "రేఖ_మందం"
   },
   {
-    "removeItem": "removeItem"
+    "bezier": "బెజియర్"
   },
   {
-    "requestPointerLock": "requestPointerLock"
+    "bezierDetail": "బెజియర్_వివరాలు"
   },
   {
-    "resetMatrix": "resetMatrix"
+    "bezierPoint": "బెజియర్_బిందువు"
   },
   {
-    "resetShader": "resetShader"
+    "bezierTangent": "బెజియర్_స్పర్శరేఖ"
   },
   {
-    "resizeCanvas": "resizeCanvas"
+    "curve": "వక్రరేఖ"
   },
   {
-    "reverse": "reverse"
+    "curveDetail": "వక్రరేఖ_వివరాలు"
+  },
+  {
+    "curveTightness": "వక్రరేఖ_బిగువు"
+  },
+  {
+    "curvePoint": "వక్రరేఖ_బిందువు"
+  },
+  {
+    "curveTangent": "వక్రరేఖ_స్పర్శరేఖ"
+  },
+  {
+    "beginContour": "సమగ్రరేఖ_ప్రారంభించు"
+  },
+  {
+    "beginShape": "రూపం_ప్రారంభించు"
+  },
+  {
+    "bezierVertex": "బెజియర్_శీర్షం"
+  },
+  {
+    "curveVertex": "వక్ర_శీర్షం"
+  },
+  {
+    "endContour": "సమగ్రరేఖ_ముగించు"
+  },
+  {
+    "endShape": "రూపం_ముగించు"
+  },
+  {
+    "quadraticVertex": "ద్విఘాత_శీర్షం"
+  },
+  {
+    "vertex": "శీర్షం"
+  },
+  {
+    "normal": "సాధారణం"
+  },
+  {
+    "applyMatrix": "మాత్రిక_వర్తించు"
+  },
+  {
+    "resetMatrix": "మాత్రిక_పునఃసృష్టించు"
   },
   {
     "rotate": "తిప్పు"
   },
   {
-    "rotateX": "rotateX"
+    "rotateX": "తిప్పుX"
   },
   {
-    "rotateY": "rotateY"
+    "rotateY": "తిప్పుY"
   },
   {
-    "rotateZ": "rotateZ"
-  },
-  {
-    "rotationX": "rotationX"
-  },
-  {
-    "rotationY": "rotationY"
-  },
-  {
-    "rotationZ": "rotationZ"
-  },
-  {
-    "round": "round"
-  },
-  {
-    "saturation": "saturation"
-  },
-  {
-    "save": "save"
-  },
-  {
-    "saveCanvas": "saveCanvas"
-  },
-  {
-    "saveFrames": "saveFrames"
-  },
-  {
-    "saveGif": "saveGif"
-  },
-  {
-    "saveJSON": "saveJSON"
-  },
-  {
-    "saveJSONArray": "saveJSONArray"
-  },
-  {
-    "saveJSONObject": "saveJSONObject"
-  },
-  {
-    "saveStrings": "saveStrings"
-  },
-  {
-    "saveTable": "saveTable"
+    "rotateZ": "తిప్పుZ"
   },
   {
     "scale": "కొలత"
-  },
-  {
-    "second": "second"
-  },
-  {
-    "select": "select"
-  },
-  {
-    "selectAll": "selectAll"
-  },
-  {
-    "set": "set"
-  },
-  {
-    "setAttributes": "setAttributes"
-  },
-  {
-    "setCamera": "setCamera"
-  },
-  {
-    "setFrameRate": "setFrameRate"
-  },
-  {
-    "setMoveThreshold": "setMoveThreshold"
-  },
-  {
-    "setShakeThreshold": "setShakeThreshold"
-  },
-  {
-    "shader": "shader"
   },
   {
     "shearX": "వాల్చుX"
@@ -849,175 +234,460 @@ const teluguTranslations = [
     "shearY": "వాల్చుY"
   },
   {
-    "shininess": "shininess"
+    "translate": "స్థానాంతరం"
   },
   {
-    "shorten": "shorten"
+    "alpha": "ఆల్ఫా"
   },
   {
-    "shuffle": "shuffle"
+    "blue": "నీలం"
   },
   {
-    "sin": "sin"
+    "brightness": "కాంత్మానవత"
   },
   {
-    "smooth": "smooth"
+    "color": "రంగు"
   },
   {
-    "sort": "sort"
+    "green": "ఆకుపచ్చ"
   },
   {
-    "specularColor": "specularColor"
+    "hue": "వర్ణం"
   },
   {
-    "specularMaterial": "specularMaterial"
+    "lerpColor": "రంగు_మధ్యస్థం"
   },
   {
-    "sphere": "sphere"
+    "lightness": "కాంతివృద్ధితా"
   },
   {
-    "splice": "splice"
+    "red": "ఎరుపు"
   },
   {
-    "split": "split"
+    "saturation": "గాఢత"
   },
   {
-    "splitTokens": "splitTokens"
+    "beginClip": "కత్తిరింపు_ప్రారంభించు"
   },
   {
-    "spotLight": "spotLight"
+    "endClip": "కత్తిరింపు_ముగించు"
   },
   {
-    "sq": "sq"
+    "clip": "కత్తిరించు"
   },
   {
-    "sqrt": "sqrt"
+    "background": "నేపథ్యం"
   },
   {
-    "square": "square"
+    "clear": "శుభ్రపరచు"
   },
   {
-    "storeItem": "storeItem"
+    "colorMode": "రంగు_రూపం"
   },
   {
-    "str": "str"
+    "fill": "నింపు"
+  },
+  {
+    "noFill": "నింపకుండా"
+  },
+  {
+    "noStroke": "రేఖ_లేకుండా"
   },
   {
     "stroke": "రేఖ_రంగు"
   },
   {
-    "strokeCap": "రేఖ_కొన"
+    "erase": "చెరిపివేయి"
   },
   {
-    "strokeJoin": "strokeJoin"
-  },
-  {
-    "strokeWeight": "రేఖ_మందం"
-  },
-  {
-    "subset": "subset"
-  },
-  {
-    "tan": "tan"
-  },
-  {
-    "text": "పాఠం"
+    "noErase": "చెరిపివేయకుండా"
   },
   {
     "textAlign": "పాఠం_అమరిక"
   },
   {
-    "textAscent": "textAscent"
-  },
-  {
-    "textDescent": "textDescent"
-  },
-  {
-    "textFont": "పాఠం_ఫాంట్"
-  },
-  {
-    "textLeading": "textLeading"
-  },
-  {
-    "textOutput": "textOutput"
+    "textLeading": "పాఠం_ఎడం"
   },
   {
     "textSize": "పాఠం_పరిమాణం"
   },
   {
-    "textStyle": "textStyle"
+    "textStyle": "పాఠం_శైలి"
   },
   {
-    "textWidth": "textWidth"
+    "textWidth": "పాఠం_వెడల్పు"
   },
   {
-    "textWrap": "textWrap"
+    "textAscent": "పాఠం_ఎత్తు"
   },
   {
-    "texture": "texture"
+    "textDescent": "పాఠం_లోతు"
   },
   {
-    "textureMode": "textureMode"
+    "textWrap": "పాఠం_మడత"
   },
   {
-    "textureWrap": "textureWrap"
+    "loadFont": "అక్షరశైలి_నింపు"
   },
   {
-    "tint": "tint"
+    "text": "పాఠం"
   },
   {
-    "torus": "torus"
+    "textFont": "పాఠం_ఫాంట్"
   },
   {
-    "touches": "touches"
+    "createImage": "చిత్రం_సృష్టించు"
   },
   {
-    "translate": "స్థానాంతరం"
+    "saveCanvas": "కాన్వాస్_భద్రపరచు"
   },
   {
-    "triangle": "triangle"
+    "saveGif": "Gif_భద్రపరచు"
   },
   {
-    "trim": "trim"
+    "loadImage": "చిత్రం_నింపు"
   },
   {
-    "turnAxis": "turnAxis"
+    "image": "చిత్రం"
   },
   {
-    "unchar": "unchar"
+    "tint": "ఛాయ"
   },
   {
-    "unhex": "unhex"
+    "noTint": "ఛాయ_లేకుండా"
   },
   {
-    "updatePixels": "updatePixels"
+    "imageMode": "చిత్ర_రూపం"
   },
   {
-    "vertex": "vertex"
+    "blend": "మిశ్రమం"
   },
   {
-    "webglVersion": "webglVersion"
+    "copy": "నకలు"
   },
   {
-    "width": "width"
+    "filter": "వడపోత"
   },
   {
-    "winMouseX": "winMouseX"
+    "get": "పొందు"
   },
   {
-    "winMouseY": "winMouseY"
+    "loadPixels": "పిక్సెల్స్_నింపు"
   },
   {
-    "windowHeight": "windowHeight"
+    "set": "అమర్చు"
   },
   {
-    "windowWidth": "windowWidth"
+    "updatePixels": "పిక్సెల్స్_తాజాపరుచు"
   },
   {
-    "writeFile": "writeFile"
+    "loadJSON": "JSON_నింపు"
   },
   {
-    "year": "year"
+    "loadStrings": "వాక్యాలు_నింపు"
+  },
+  {
+    "loadTable": "పట్టిక_నింపు"
+  },
+  {
+    "loadXML": "XML_నింపు"
+  },
+  {
+    "loadBytes": "బైట్లు_నింపు"
+  },
+  {
+    "httpGet": "http_పొందు"
+  },
+  {
+    "httpPost": "http_పంపు"
+  },
+  {
+    "httpDo": "http_చేయి"
+  },
+  {
+    "createWriter": "రచయితను_సృష్టించు"
+  },
+  {
+    "save": "భద్రపరచు"
+  },
+  {
+    "saveJSON": "JSON_భద్రపరచు"
+  },
+  {
+    "saveJSONObject": "JSON_వస్తువు_భద్రపరచు"
+  },
+  {
+    "saveJSONArray": "JSON_వ్యూహం_భద్రపరచు"
+  },
+  {
+    "saveStrings": "వాక్యాలు_భద్రపరచు"
+  },
+  {
+    "saveTable": "పట్టిక_భద్రపరచు"
+  },
+  {
+    "writeFile": "దస్త్రం_రాయి"
+  },
+  {
+    "downloadFile": "దస్త్రం_దిగుమతిచెయ్యి"
+  },
+  {
+    "storeItem": "అంశం_దాచు"
+  },
+  {
+    "getItem": "అంశం_పొందు"
+  },
+  {
+    "clearStorage": "సంగ్రహణ_శుభ్రపరచు"
+  },
+  {
+    "removeItem": "అంశం_తొలగించు"
+  },
+  {
+    "createStringDict": "పదకోశం_సృష్టించు"
+  },
+  {
+    "createNumberDict": "సంఖ్యాకోశం_సృష్టించు"
+  },
+  {
+    "abs": "నిరపేక్ష"
+  },
+  {
+    "ceil": "పై_పూర్ణాంకం"
+  },
+  {
+    "constrain": "పరిమితం_చేయి"
+  },
+  {
+    "dist": "దూరం"
+  },
+  {
+    "exp": "ఘాతాంకం"
+  },
+  {
+    "floor": "కింది_పూర్ణాంకం"
+  },
+  {
+    "lerp": "మధ్యస్థం"
+  },
+  {
+    "log": "సంవర్గమానం"
+  },
+  {
+    "mag": "పరిమాణం"
+  },
+  {
+    "map": "మ్యాప్"
+  },
+  {
+    "max": "గరిష్టం"
+  },
+  {
+    "min": "కనిష్టం"
+  },
+  {
+    "norm": "సాధారణీకరించు"
+  },
+  {
+    "pow": "ఘాతం"
+  },
+  {
+    "round": "సమీప_పూర్ణాంకం"
+  },
+  {
+    "sq": "వర్గం"
+  },
+  {
+    "sqrt": "వర్గమూలం"
+  },
+  {
+    "fract": "భిన్నం"
+  },
+  {
+    "createVector": "సదిశ_సృష్టించు"
+  },
+  {
+    "noise": "శబ్దం"
+  },
+  {
+    "noiseDetail": "శబ్దం_వివరాలు"
+  },
+  {
+    "noiseSeed": "శబ్దం_విత్తనం"
+  },
+  {
+    "randomSeed": "యాదృచ్ఛిక_విత్తనం"
+  },
+  {
+    "random": "యాదృచ్ఛికం"
+  },
+  {
+    "randomGaussian": "గాస్సియన్_యాదృచ్ఛికం"
+  },
+  {
+    "acos": "ఆర్క్‌కోసైన్"
+  },
+  {
+    "asin": "ఆర్క్‌సైన్"
+  },
+  {
+    "atan": "ఆర్క్‌టాన్"
+  },
+  {
+    "atan2": "ఆర్క్‌టాన్2"
+  },
+  {
+    "cos": "కోసైన్"
+  },
+  {
+    "sin": "సైన్"
+  },
+  {
+    "tan": "టాన్"
+  },
+  {
+    "degrees": "డిగ్రీలు"
+  },
+  {
+    "radians": "రేడియన్లు"
+  },
+  {
+    "angleMode": "కోణ_రూపం"
+  },
+  {
+    "camera": "కెమెరా"
+  },
+  {
+    "perspective": "దృక్కోణం"
+  },
+  {
+    "ortho": "లంబకోణీయం"
+  },
+  {
+    "frustum": "శంకుచ్ఛేదం"
+  },
+  {
+    "createCamera": "కెమెరా_సృష్టించు"
+  },
+  {
+    "setCamera": "కెమెరా_అమర్చు"
+  },
+  {
+    "setAttributes": "గుణాలు_అమర్చు"
+  },
+  {
+    "webglVersion": "WebGL_రూపాంతరం"
+  },
+  {
+    "beginGeometry": "జ్యామితి_ప్రారంభించు"
+  },
+  {
+    "endGeometry": "జ్యామితి_ముగించు"
+  },
+  {
+    "buildGeometry": "జ్యామితి_నిర్మించు"
+  },
+  {
+    "freeGeometry": "జ్యామితి_విడుదలచెయ్యి"
+  },
+  {
+    "plane": "తలం"
+  },
+  {
+    "box": "పెట్టె"
+  },
+  {
+    "sphere": "గోళం"
+  },
+  {
+    "cylinder": "స్థూపం"
+  },
+  {
+    "cone": "శంకువు"
+  },
+  {
+    "ellipsoid": "దీర్ఘగోళం"
+  },
+  {
+    "torus": "టోరస్"
+  },
+  {
+    "orbitControl": "కక్ష్య_నియంత్రణ"
+  },
+  {
+    "debugMode": "తప్పులతిద్దు_రూపం"
+  },
+  {
+    "noDebugMode": "తప్పులతిద్దు_రూపం_లేకుండా"
+  },
+  {
+    "ambientLight": "పరిసర_కాంతి"
+  },
+  {
+    "specularColor": "ప్రతిఫలన_రంగు"
+  },
+  {
+    "directionalLight": "దిశా_కాంతి"
+  },
+  {
+    "pointLight": "బిందు_కాంతి"
+  },
+  {
+    "lights": "కాంతులు"
+  },
+  {
+    "lightFalloff": "కాంతి_క్షీణత"
+  },
+  {
+    "spotLight": "స్పాట్‌లైట్"
+  },
+  {
+    "noLights": "కాంతి_లేకుండా"
+  },
+  {
+    "loadModel": "నమూనా_నింపు"
+  },
+  {
+    "model": "నమూనా"
+  },
+  {
+    "loadShader": "షేడర్_నింపు"
+  },
+  {
+    "createShader": "షేడర్_సృష్టించు"
+  },
+  {
+    "createFilterShader": "వడపోత_షేడర్_సృష్టించు"
+  },
+  {
+    "shader": "షేడర్"
+  },
+  {
+    "resetShader": "షేడర్_పునఃసృష్టించు"
+  },
+  {
+    "texture": "రూపరేఖ"
+  },
+  {
+    "textureMode": "రూపరేఖ_రూపం"
+  },
+  {
+    "textureWrap": "రూపరేఖ_చుట్టు"
+  },
+  {
+    "normalMaterial": "సాధారణ_పదార్థం"
+  },
+  {
+    "ambientMaterial": "పరిసర_పదార్థం"
+  },
+  {
+    "emissiveMaterial": "ఉద్గార_పదార్థం"
+  },
+  {
+    "specularMaterial": "ప్రతిఫలన_పదార్థం"
+  },
+  {
+    "shininess": "మెరుపు"
   }
 ];
 
